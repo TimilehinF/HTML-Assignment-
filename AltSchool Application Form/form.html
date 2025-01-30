@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My AltSchool Application Page</title>
+    <link href="../AltSchool Application Form/form.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav aria-labelledby="primary navigation">
+          <p><a href="../index.html"> Landing Page</a> </p>
+          <p><a href="../Home Page/home.html"> My Home Page</a></p>
+          <p><a href="../Courses at AltSchool/table.html"> Courses at AltSchool</a></p>
+          <p><a href="../Media Elements/media.html"> Media Elements</a></p>
+          </nav>
+      <p id="signin-nav"><strong> Already and AltScholar? Sign In!</strong></p>
+      <h1>Signup</h1>
+      <p>Take the next steps to apply at AltSchool Africa</p>
+    </header>
+    
+
+    <form>
+      <div class="form-control">
+      <label for="first name"> First Name</label>
+      <input type="text" placeholder="First Name" required />
+    </div>
+    <div class="form-control">
+      <label for="last name"> Last Name </label>
+      <input type="text" placeholder="Last Name" required />
+    </div>
+    <div class="form-control">
+      <label for="email"> Email</label>
+      <input type="email" placeholder="Email" required />
+    </div>
+    <div class="form-control">
+      <label for="gender"> Gender</label>
+      <select required>
+        <option>Select gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <div class="form-control">
+      <label for="date of birth"> Date of Birth</label>
+      <input type="date" id="date-style" />
+    </div>
+    <div class="form-control">
+      <label for="phone number"> Phone Number</label>
+      <input type="tel" placeholder="Phone Number" required />
+    </div>
+    <div class="form-control">
+      <label for="country of residence"> Country of Residence</label>
+      <input type="text" placeholder="Country of Residence" required /> 
+    </div>
+    <div class="form-control">
+      <label for="state of residence"> State of Residence</label>
+      <input type="text" placeholder="State of Residence" required />
+    </div>
+    <div class="form-control">
+      <label for="password"> Password</label>
+      <input type="password" minlength="8" placeholder="Password" required />
+    </div>
+    <div class="form-control">
+      <label for="confrim password"> Confirm Password</label>
+      <input type="password" minlength="8" placeholder="Confirm Password" />
+    </div>
+    <div class="form-control">
+      <label for="how did you hear about us">
+        How did you hear about us?
+      </label>
+      <input type="text" placeholder="Optional: Let us know how you found us" />
+    </div>
+    <div class="submit-control">
+      <p class="disclosure">
+        By Clicking continue, I agree to Terms of Use and
+        ackowledge that I have read the Privacy Policy.
+      </p>
+      <input type="submit" value="Signup"/>
+    </div>
+      <!--Alternative for Submit
+      <button type="submit">Submit</button>
+    -->
+    </form>
+
+    <footer id="footer-style">
+      <p><a href="#top">Back to Top</a></p>
+      <p>Ontario, Canada</p>
+      <p>
+        <strong> &copy; 2024 Timilehin Fadipe. All rights reserved.</strong>
+      </p>
+    </footer>
+  </body>
+</html>

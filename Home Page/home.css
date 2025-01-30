@@ -1,0 +1,37 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  font-family: "Ysabeau Office";
+}
+.headings {
+  color: blue;
+}
+main,
+article {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+nav p {
+  padding: 0px;
+}
+h1,
+h2 {
+  padding: 1em;
+}
+h1 + p {
+  margin-top: -50px;
+  color: rgba(0, 0, 0, 0.7);
+  text-indent: 20%;
+}
+[href] {
+  color: blue;
+}
+ul {
+  list-style: none;
+}
+#footer-style {
+  margin-top: 15%;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+    <link href="../Media Elements/media.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <p><a href="../index.html"> Landing Page</a> </p>
+            <p><a href="../Home Page/home.html"> My Home Page</a></p>
+            <p><a href="../AltSchool Application Form/form.html"> AltSchool Application Form</a></p>
+            <p><a href="../Courses at AltSchool/table.html"> Courses at AltSchool</a></p>
+        </nav>
+    </header>
+    <div class="container">
+    <h2 class="headings">A Little About Me</h2>
+
+    <ul>
+        <li> <figcaption class="headings"> A Picture of Me</figcaption>
+            <img src="../Assets/Images/IMG_6810.JPG" alt="a picture of me" width="454" height="360"/>
+        </li>
+        <li> <figcaption class="headings"> A Voice-Note About Me </figcaption>
+            <audio src="../Assets/Audio/My Audio.m4a" alt="a little about me" controls></audio>
+        </li>
+        <li> <figcaption class="headings"> Something I Enjoy </figcaption>
+            <video src="../Assets/Video/My Fun Video.mov" controls width="454" height="454" loop></video>
+        </li>
+        <li> <figcaption class="headings"> Another Thing I Enjoy </figcaption>
+            <video controls width="454" height="454">
+                <source src="../Assets/Video/Another Fun Video.MOV" type="video/mov">
+                <source src="../Assets/Video/Another Fun Video.mp4" type="video/mp4">
+                Your browser does not support this video format
+            </video>
+        </li>
+        <li> <figcaption class="headings"> A Video That Motivates Me </figcaption>
+            <iframe src="https://www.youtube.com/embed/oVHpEYQaDyw?si=KMhOYZK7xWlaBjME" 
+            width="454" height="454"></iframe>
+            </li>
+        <li>
+            <figcaption class="headings"> A Video with Subtitles </figcaption>
+            <video controls width="454" height="454">
+                <source src="../Assets/Video/2010a-sebastian-wernicke-006-1200k.mp4">
+                <track src="../Assets/Video/Lies damned lies and statistics about TEDTalks.en.vtt"
+                kind="subtitles"srclang="en" label="English" default>
+            </video>
+        </li>
+        <li>
+            <figcaption class="headings"> This picture changes depending on the device </figcaption>
+            <picture width="454" height="454">
+                <source srcset="../Assets/Images/thumbnail.jpg" media="(min-width: 320px) and (max-width:767px)">
+                <source srcset="../Assets/Images/IMG_6811.JPG" media="(min-width: 768px) and (max-width:1023px)">
+                <source srcset="../Assets/Images/My Picture.JPG" media="(min-width: 1024px)">
+                <img src="../Assets/Images/My Picture.JPG" alt="My Picture">
+            </picture>
+        </li>
+        </ul>
+    </div>
+        <footer id="footer-style">
+            <p><a href="#top">Back to Top</a></p>
+            <p>Ontario, Canada</p>
+            <p>
+              <strong> &copy; 2024 Timilehin Fadipe. All rights reserved.</strong>
+            </p>
+          </footer>
+</body>
+</html>

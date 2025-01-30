@@ -1,0 +1,30 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  font-family: "Ysabeau Office";
+}
+.headings {
+  color: blue;
+}
+nav p {
+  padding: 0px;
+}
+ul,
+h2 {
+  padding: 15px;
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+[href] {
+  color: blue;
+}
+
+li figcaption {
+  font-size: larger;
+}
+#footer-style {
+  margin-top: 15%;
+  text-align: center;
+}

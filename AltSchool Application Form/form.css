@@ -1,0 +1,63 @@
+* {
+  margin: 10px;
+  padding: 5px;
+  background-color: lightblue;
+  font-family: "Ysabeau Office";
+}
+.nav-control {
+  padding: 0px;
+}
+/* The label makes it stay on its own line*/
+.form-control label {
+  display: block;
+  text-align: left;
+}
+.form-control input {
+  min-width: 20%;
+}
+[href] {
+  color: blue;
+}
+input[type="submit"] {
+  color: white;
+  background-color: blue;
+  display: block; 
+  width: 10%
+}
+input:placeholder-shown {
+  font-weight: bold;
+  text-align: left;
+}
+.submit-control {
+  margin-top: 10%;
+}
+.disclosure{
+  font-size: small ;
+}
+select {
+  font-weight: 700;
+}
+#date-style {
+  font-weight: 1000;
+}
+#signin-nav {
+  text-indent: 75%;
+}
+#footer-style {
+margin-top: 15%;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+  #signin-nav {
+    text-indent: 60%;
+  }
+}
+@media (max-width: 480px) {
+  #signin-nav {
+    text-indent: 25%;
+  }
+  input[type="submit"] {
+    width: 150px
+  }
+}

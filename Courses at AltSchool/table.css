@@ -1,0 +1,43 @@
+* {
+    margin: 10px;
+    padding: 0 10px 10px;
+    background-color: lightblue;
+  font-family: "Ysabeau Office";
+
+  }
+nav p {
+    padding: 0px
+}
+legend {
+    font-weight: bold;
+    font-size: 35px;
+    color:blue;
+    text-align: center
+}
+td, th {
+    border: 1px solid rgba(0, 0, 255, 0.5); 
+    width: auto;
+}
+fieldset {
+    border-color: blue;
+}
+/* Margin Auto and Specified Width to Centralize*/
+table {
+    margin: auto;
+    width: 80%;
+}
+#footer-style {
+    margin-top: 15%;
+    text-align: center;
+    }
+    @media (max-width: 768px) {
+       table {
+        max-width: 768px
+       }
+      }
+      @media (max-width: 480px) {
+        table {
+        max-width: 768px
+           }
+      }
+  
